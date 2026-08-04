@@ -1,0 +1,41 @@
+
+
+
+#Next JS + Laravel VPS Setup: 
+-----------------------------
+
+User: starseed
+Pass: Smart@321
+Public IP: 182.160.112.73
+
+=> install globally node 22 and npm 
+
+=> install globally claude cli
+
+=> install the docker and docker compose that can run without sudo command 
+
+=> create a folder /home/my_username/Project/
+
+=> pull code from this -> gitlab : http://202.74.246.122:7000/root/starts_seed_multivendor_ecom.git
+
+			  gitlab username : ashrafulunisoft@gmail.com password : @786Shuvooo
+
+=> goto the project folder which is download 
+
+=> according to the server public ip set the .env , docker compose file , nginx and other file is you need for laravel and also for the Next js
+
+=> run the 'docker compose build -up' command and check that the the container is running perfectly . if all the containers is not running then fix those error and run all of the container . 
+
+=> num the npm / pnpm build command ; if you face any error then fix those one by one . 
+
+=> setup the laravel ; if you face any error then fix those one by one . 
+
+=> then upload the DB file => to the DB container  ; if you face any error then fix those one by one . 
+
+
+=> check the project is running succefully with curl  Next JS + Laravel ; if you face any error then fix those one by one . 
+
+=> if project is running successfully then install the pm2 and run the project with the pm2. 
+
+
+

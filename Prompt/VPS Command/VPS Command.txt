@@ -1,0 +1,203 @@
+wirte a complete task list with details more line that whole day which  is done  ... with detials codings . Company name : unisoft system ltd and my name : Md.Ashraful Momen (Team Lead). file name => working_report_Md_Ashraful_Momen_today_date.md and save to => /TaskList
+
+
+Fro
+
+
+
+
+#Odoo ERP vps ci/cd command for upgrade the latest code : 
+-----------------------------------------------------
+
+=> Download &  backup the current DB file from the DB to this => /home/unisofterp/Project/unisoft_erp/db_backup/server_db/
+
+=> pull the code from the 'dev' branch and merge with 'production' branch without configuration file and  
+
+=> remove those db_asset  folder from this path -> /home/uisofterp/.local/share/Odoo/filestore/unisoft_erp (example for file location => /home/username/.local/share/Odoo/filestore/database_name)
+
+=> From /home/unisofterp/Project/unisoft_erp/backup/ asset_today_date.zip extract and paste this file => asset_today_date.sql to /home/uisofterp/.local/share/Odoo/filestore/unisoft_erp (example for file location => /home/username/.local/share/Odoo/filestore/database_name)
+
+=> update the db_today_date.zip to the Database
+
+=> update the odoo addones if need to upgrade with cli command ; if you face any error then fix those one by one . 
+
+=> restart the pm2
+
+=> run those command -> 'git add .'  and 'git commit -m "upgrade the latest code today_date_time"' and 'git push origin production'
+
+
+
+--------------------------------------------------------
+/home/uisofterp/.local/share/Odoo/filestore/unisoft_erp
+unisoft_erp
+
+create another branch from dev as 'production'  and add . and commit "new branch created for the server management" ; then add some of files and folder in the .gitignore for that if local pc push code then server env docker compose file etc configuration note change for the production vps ; from the DB download a back_today_date_server_db_file.sql and save to /home/unisofterp/Project/unisoft_erp/backup/ ; then update the pm2
+
+
+example => [/home/username/.local/share/Odoo/filestore/database_name]
+
+-------------------------------------------------------
+
+
+
+=============================================================== Next JS Server :: Citymade ===============================================================================
+
+
+#Next JS VPS Setup: 
+----------------------
+
+User: citymade
+Pass: Smart@321
+Public IP: 182.160.112.71
+
+
+=> install globally node 22 and npm 
+
+=> install globally claude cli
+
+=> install the docker and docker compose that can run without sudo command 
+
+=> create a folder /home/my_username/Project/
+
+=> pull code from this -> gitlab : http://202.74.246.122:7000/root/city_mead_website.git
+
+			  gitlab username : ashrafulunisoft@gmail.com password : @786Shuvooo
+
+=> pull code from the origin dev and create new branch production . and work on this branch . 
+=> goto the project folder which is download 
+
+=> according to the server public ip set the .env , docker compose file , nginx and other file is you need 
+
+=> run the 'docker compose build -up' command and check that the the container is running perfectly . if all the containers is not running then fix those error and run all of the container . 
+
+=> num the npm / pnpm build command accoring to the project json config; if you face any error then fix those one by one . 
+
+=> then run the seeder command ; if you face any error then fix those one by one . 
+
+=> check the project is running succefully with curl 
+
+=> if project is running successfully then install the pm2 and run the project with the pm2. 
+
+Next JS Testing Report: 
+------------------------
+=> Check every page every link is working with curl
+=> just give me the reprot which links are not working . Not fix those just give me the report and save to => /home/citymade/Test .
+=> Save the test reprot 
+
+
+#update latest code: 
+--------------------
+=> pull the latest code from the dev branch and merge with production branch without the configuration file as like .env , docker compose , nginx etc 
+=> then rebuild if you get any error fix those
+=> run seeder if you get any error fix those
+=> and restart the pm2 and if you get any error fix those
+ 
+
+=============================================================== Next JS Server:: End CityMade ===============================================================================
+
+
+
+
+
+
+=============================================================== Next JS Server :: Simal ===============================================================================
+
+For RooCode-------------
+
+User: simal
+Pass: Smart@321
+Public IP: 182.160.112.72
+
+=> install globally node 22 and npm 
+
+=> install globally claude cli
+
+
+#Next JS VPS Setup: 
+----------------------
+
+User: simal
+Pass: Smart@321
+Public IP: 182.160.112.72
+
+=> install the docker and docker compose that can run without sudo command 
+
+=> create a folder /home/my_username/Project/
+
+=> pull code from this -> gitlab : http://202.74.246.122:7000/root/simal_corporate_website.git
+
+			  gitlab username : ashrafulunisoft@gmail.com password : @786Shuvooo
+
+=> pull code from the origin dev and create new branch production . and work on this branch . 
+
+=> goto the project folder which is download 
+
+=> according to the server public ip set the .env , docker compose file , nginx and other file is you need 
+
+=> run the 'docker compose build -up' command and check that the the container is running perfectly . if all the containers is not running then fix those error and run all of the container . 
+
+=> num the npm / pnpm build command accoring to the project json config; if you face any error then fix those one by one . 
+
+=> then run the seeder command ; if you face any error then fix those one by one . 
+
+=> check the project is running succefully with curl 
+
+=> if project is running successfully then install the pm2 and run the project with the pm2. 
+
+
+
+Next JS Testing Report: 
+------------------------
+=> Check every page every link is working 
+=> just give me the reprot which links are not working . Not fix those just give me the report and save to /Test .
+=> Save the test reprot 
+
+#update latest code: 
+--------------------
+=> pull the latest code from the dev branch and merge with production branch without the configuration file as like .env , docker compose , nginx etc 
+=> then rebuild if you get any error fix those
+=> run seeder if you get any error fix those
+=> and restart the pm2 and if you get any error fix those
+
+=============================================================== Next JS Server:: End CityMade ===============================================================================
+
+
+==================================================== StarSeed Multiventor : Next JS + Laravel =================================================
+
+#Next JS + Laravel VPS Setup: 
+-----------------------------
+
+User: starseed
+Pass: Smart@321
+Public IP: 182.160.112.73
+
+=> install globally node 22 and npm 
+
+=> install globally claude cli
+
+=> install the docker and docker compose that can run without sudo command 
+
+=> create a folder /home/my_username/Project/
+
+=> pull code from this -> gitlab : http://202.74.246.122:7000/root/simal_corporate_website.git
+
+			  gitlab username : ashrafulunisoft@gmail.com password : @786Shuvooo
+
+=> goto the project folder which is download 
+
+=> according to the server public ip set the .env , docker compose file , nginx and other file is you need 
+
+=> run the 'docker compose build -up' command and check that the the container is running perfectly . if all the containers is not running then fix those error and run all of the container . 
+
+=> num the npm / pnpm build command ; if you face any error then fix those one by one . 
+
+=> setup the laravel ; if you face any error then fix those one by one . 
+
+=> then upload the DB file => to the DB container  ; if you face any error then fix those one by one . 
+
+
+=> check the project is running succefully with curl  ; if you face any error then fix those one by one . 
+
+=> if project is running successfully then install the pm2 and run the project with the pm2. 
+
+==================================================== END ::: StarSeed Multiventor : Next JS + Laravel =================================================
