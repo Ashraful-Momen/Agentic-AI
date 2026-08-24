@@ -1,3 +1,24 @@
+
+analysis this website => https://digitalequipment.com.bd/
+
+give me a corporate website which is for The Website ; 
+use the gradient , blur effect , shadow , glassmorphism , animate css effect , wow js effect and parallax background effect with tree js library effect ; 
+give me only the theme not any code ; 
+I need the theme for : Home page ; and Service Details pages, featuring a futuristic, modern, and professional aesthetic.
+
+
+------------ what is the website ------------------
+
+
+Digital Equipment Limited and its affiliate Smart Technologies (BD) Ltd. operate near Shewrapara along Begum Rokeya Sarani, Mirpur, Dhaka, providing IT infrastructure, hardware distribution, and corporate tech equipment solutions. Their regional hub and service center is located at 586/1, Begum Rokeya Sarani, Shewrapara, Mirpur, Dhaka.
+
+Available Equipment & ServicesIT Infrastructure: Data storage systems and backup hardwareSecurity & Surveillance: Enterprise and commercial CCTV/security setupsNetworking Gear: Routers, switches, and core networking peripheralsOffice Automation: Printers, digital displays, and system software licensing
+
+Location & Contact DetailsAddress: 586/1 (4th & 5th Floor), Begum Rokeya Sarani, Shewrapara, Mirpur, Dhaka-1216Hours: Saturday to Thursday, 9:00 AM – 6:30 PM (Friday Closed)Hotline: 09604300600
+
+
+===================================================================== Decorate Prompt ===============================
+
 give me a corporate website which is for provide printing service solution ; 
 use the gradient , blur effect , shadow , glassmorphism , animate css effect , wow js effect and parallax background effect with tree js library effect,
 light color background, not dark color for the background ; 
